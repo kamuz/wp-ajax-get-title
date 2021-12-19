@@ -1,0 +1,56 @@
+/**
+ * Theme Name:  Simple Theme
+ * Description: Blank Wordpress Theme
+ * Version:     1.0
+ * Author:      Vladimir Kamuz
+ * Tags:        starter theme, simple, lightweight
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Ubuntu, Segoe UI, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	background-color: #eee;
+}
+
+a {
+	color: blue;
+}
+
+.container {
+	width: 70%;
+	margin: 30px auto;
+	background-color: #fff;
+	padding: 25px;
+}
+
+.container h1 {
+	border-bottom: 1px solid #eee;
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+}
+
+.container img {
+	max-width: 100%;
+}
+
+input,
+button {
+	border: 1px solid #eee;
+	height: 30px;
+	padding: 5px;
+	margin: 0;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+.btn {
+	border: none;
+	display: inline-block;
+	background-color: #eee;
+}
